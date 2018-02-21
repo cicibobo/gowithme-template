@@ -5,16 +5,75 @@ body {
 }
 header {
 	border-bottom: 1px solid black;
-	margin: 10px;
 }
 img.head {
-	width: 200px;
-	height: auto;
+	width: 50px;
+	height: 50px;
 	border: 1px solid black;
 	display: inline-block;
+	margin-left: 20px;
 }
 h1 {
 	letter-spacing: 3px;
 	display: inline-block;
 	margin-left: 20px;
+}
+nav {
+	border-bottom: 1px solid black;
+	padding: 10px;
+}
+nav a {
+	margin-left: 10px;
+	text-decoration: none;
+	color: black;
+}
+article {
+	width: 500px;
+	height: 200px;
+	margin: 20px auto;
+	border: 1px solid black;
+	padding: 10px;
+}
+section {
+	float: right;
+	margin-right: 40px;
+	text-align: center;
+}
+.article-img {
+	position: absolute;
+	width: 150px;
+	height: 200px;
+	border: 1px solid black;
+	margin-left: 10px;
+}
+.art {
+	text-decoration: none;
+	color: red;
+	font-weight: bold;
+}
+.social {
+	display: inline-block;
+	float: right;
+	margin-right: 20px;
+	margin-top: 22px;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
 }
