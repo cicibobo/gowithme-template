@@ -29,18 +29,21 @@ nav a {
 }
 article {
 	width: 500px;
-	height: 200px;
+	height: auto;
 	margin: 20px auto;
 	border: 1px solid black;
 	padding: 10px;
 }
-section {
-	float: right;
+.cont-1 {
+	display: inline-block;
+}
+.cont-2 {
 	margin-right: 40px;
 	text-align: center;
+	display: inline-block;
+	float: right;
 }
 .article-img {
-	position: absolute;
 	width: 150px;
 	height: 200px;
 	border: 1px solid black;
@@ -52,10 +55,11 @@ section {
 	font-weight: bold;
 }
 .social {
-	display: inline-block;
 	float: right;
-	margin-right: 20px;
-	margin-top: 22px;
+	position: absolute;
+	left: 630px;
+	display: inline-block;
+	margin-top: 140px;
 }
 .fa {
   padding: 20px;
